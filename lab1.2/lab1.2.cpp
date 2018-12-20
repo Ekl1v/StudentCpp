@@ -20,16 +20,16 @@ int main()
 	cout << "What year are you born?" << endl;
 	cin >> age;
 
-	if ((day > 20)&&(month = 12)&&(age >= 2000))
-	{
+		if ((day > 20)&&(month = 12)&&(age >= 2000))
+		{
 		int today = 2017;
 		age = (today - age);
-	}
-	else
-	{
+		}
+		else
+		{
 		int today = 2018;
 		age = (today - age);
-	}
+		}
 
 	cout << "Hello, " << name << " You're " << age << " years old." << endl;
 
